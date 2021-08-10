@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+    </style>
+    <title>Allignment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Ubuntu', sans-serif;
+            background-image: url("https://source.unsplash.com/user/erondu/1600x900");
+        }
+
+        .container {
+            font-size: 30px;
+            padding: 5px;
+            width: auto;
+            border: 2px solid rgb(0, 0, 0);
+            margin: 50px auto;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+
+        h3{
+            text-decoration: none;
+            padding: 10px;
+            text-align: center;
+        }
+        h3 a{
+            text-decoration: none;
+        }
+
+        .item {
+            padding: 5px;
+            border: 2px solid black;
+            margin: 12px 5px;
+            padding: 12px 5px;
+        }
+        .item ul li a{
+            text-decoration: none;
+            color:  black;
+            
+        }
+        .item ul li a:hover{
+            color: rgb(111, 0, 255);
+        }
+        .item ul a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .item ul a:hover{
+            color: rgb(255, 106, 0);
+        }
+
+        #fruits {
+            float: left;
+            width: 50%;
+            height: 470px;
+            border-radius: 8px;
+            background-image: url("https://www.diagnosisdiet.com/assets/images/c/fruit-og-d176ef00.jpg");
+        }
+
+        #computer {
+            float: right;
+            width: 48%;
+            height: 470px;
+            border-radius: 8px;
+            background-image: url("https://images.pexels.com/photos/399159/pexels-photo-399159.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+        }
+
+        #pancil {
+            clear: both;
+            width: 99.3%;
+            border-radius: 8px;
+            background-image: url("https://images.unsplash.com/photo-1607081758973-b85919737e26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
+
+        }
+
+        p {
+            /* text-align: right; */
+            /* text-align: left; */
+            /* text-align: justify; */
+            /* text-align: center; */
+            text-align: center;
+        }
+
+        #glasses {
+            width: 99.3%;
+            border-radius: 8px;
+            background-image: url("https://thumbs.dreamstime.com/b/blue-vector-seamless-glasses-pattern-background-wallpaper-themed-white-180691995.jpg");
+        }
+
+        h1 {
+            text-align: center;
+            width: 1500px;
+            height: 10px;
+            font-size: 50px;
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome To My Store</h1>
+        <div id="fruits" class="item">
+            <h3> <a href="https://freshron.com/product-category/fruits/">Fruits</a></h3>
+            <p id="firstpara" class="para"><strong>Here you can buy Fresh and Hand-picked fruits</strong>
+            <ul>
+                <li> <a href="https://freshron.com/product/apple-1-2-kg/">Apple</a> </li>
+                <li> <a href="https://freshron.com/product/allu-bukhara-1-4kg/">Allu Bukhara</a> </li>
+                <li> <a href="https://freshron.com/product/banana-1kg/">Banana</a> </li>
+                <li> <a href="https://freshron.com/product/beetroot-1kg/">Beetroot</a> </li>
+                <li> <a href="https://freshron.com/product/kiwi-fruits-3pc-medium-2/">Kiwi</a> </li>
+                <a href="https://freshron.com/product-category/fruits/">For more click here</a>
+            </ul>
+            </p>
+        </div>
+        <div id="computer" class="item">
+            <h3><a href="https://www.amazon.in/s?k=laptops&ref=nb_sb_noss_2">Computers</a></h3>
+            <p id="secondpara" class="para"><strong>Here you can visit some of the best Laptops and Computers brands and
+                    buy anything you wish for</strong>
+            <ul>
+                <li> <a href="https://www.lenovo.com/in/en/pc?ipromoID=ftv_espot1_PC">Lenovo</a> </li>
+                <li> <a href="https://www.dell.com/en-in/shop/scc/sc/laptops?ref=hpg_cat_item1_home_cta">Dell</a> </li>
+                <li> <a href="https://store.acer.com/en-in/">Acer</a> </li>
+                <li> <a href="https://www.hp.com/in-en/shop/hp-laptop-family#home">HP</a></li>
+                <li> <a
+                        href="https://www.asus.com/in/Laptops/For-Home/All-series/filter?Category=Thin-and-light,Premium,Performance,Content-creation,Dual-screen">Asus</a>
+                </li>
+                <a href="https://www.amazon.in/s?k=laptops&ref=nb_sb_noss_2">For more click here</a>
+            </ul>
+            </p>
+        </div>
+        <div id="pancil" class="item">
+            <h3><a href="http://www.historyofpencils.com/writing-instruments-facts/types-of-pencils/">Pencil</a></h3>
+            <p id="thirdpara" class="para"><strong>Here you will find all the veryties of pencils</strong>
+            <ul>
+            <li> <a
+                    href="https://www.amazon.in/s?k=graphite+pencil&i=office-products&crid=2NTS5ER3PX0R9&sprefix=graph%2Coffice-products%2C298&ref=nb_sb_ss_ts-doa-p_8_5">Graphite pencils</a> </li>
+            <li><a href="https://www.amazon.in/s?k=solid+graphite+pencils&i=office-products&ref=nb_sb_noss">Solid graphite pencils</a> </li>
+            <li><a href="https://www.amazon.in/s?k=Charcoal+pencils&i=office-products&ref=nb_sb_noss_2">Charcoal pencils</a> </li>
+            <li><a href="https://www.amazon.in/s?k=Carbon+pencils&i=office-products&ref=nb_sb_noss_2">Carbon pencils</a></li>
+            <li><a href="https://www.amazon.in/s?k=Colored+pencils%2C+or+pencil+crayons&i=office-products&ref=nb_sb_noss_2">Color pencils, or pencil crayons</a> </li>
+                <a href="https://www.flipkart.com/kids-accessories/school-supplies/school-accessories/pencils/verity-fashion~brand/pr?sid=d69%2Cthr%2Cbap%2Clsr&page=12">For more click here</a>
+            </ul>
+            </p>
+        </div>
+
+        <div id="glasses" class="item">
+            <h3> <a href="https://www.eyebuydirect.com/">Eye Wears</a></h3>
+            <p id="forthpara" class="para"><strong>Here you can buy all the glasses you like</strong>
+            <ul>
+                <li> <a href="https://www.eyebuydirect.com/eyeglasses/full-rim">Full-Rimmed Frames</a> </li>
+                <li> <a href="https://www.eyebuydirect.com/eyeglasses/rimless">Rimless Frames</a> </li>
+                <li> <a href="https://www.eyebuydirect.com/eyeglasses/semi-rimless">Semi-Rimless Frames</a> </li>
+                <li> <a href="https://www.eyebuydirect.com/eyeglasses/wire-frame">Wire Frames</a> </li>
+                <li> <a href="https://www.eyebuydirect.com/brands/ray-ban/sunglasses">Sun Glasses</a> </li>
+                <a href="https://www.eyebuydirect.com/">For more click here</a>
+            </ul>
+            </p>
+        </div>
+
+    </div>
+</body>
+
+</html>
